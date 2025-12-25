@@ -2,6 +2,10 @@
 
 FFO est une application web (Next.js) orientée **pilotage et orchestration de funnel de conversion**. Elle propose un tableau de bord opérationnel, des analytics (visualisation du funnel et parcours utilisateurs), un gestionnaire de règles d’orchestration, la gestion des webhooks (monitoring + création), l’import/export de règles (backup & migration) et l’administration des utilisateurs/permissions.
 
+## Idée du projet
+
+L’idée de FFO est de **centraliser la logique de conversion** (règles + actions) au même endroit, au lieu de la disperser dans le code, plusieurs outils marketing, ou des automatisations non versionnées. Concrètement, l’objectif est de piloter un funnel comme un “moteur de décision” : mesurer ce qui se passe (analytics/monitoring), définir des règles d’orchestration (qui fait quoi, quand, pour quel segment), puis déclencher des actions via webhooks. Le projet vise autant les équipes **marketing/growth** (itération rapide sur les parcours) que les équipes **produit/tech** (traçabilité, gouvernance, import/export des règles, gestion des accès).
+
 ## Fonctionnalités
 
 - **Dashboard** : KPIs (règles actives, volume de requêtes, latence, succès webhooks) + actions rapides.
